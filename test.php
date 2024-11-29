@@ -4,9 +4,9 @@ require __DIR__ . "/vendor/autoload.php";
 require 'connect_bd.php'; // Inclure la connexion à la base de données
 
 // Variables Twilio
-$account_sid = "";
-$auth_token = "";
-$twilio_number = "";
+$account_sid = "TWILIO_ACCOUNT_SID";
+$auth_token = "TWILIO_AUTH_TOKEN";
+$twilio_number = "TWILIO_NUMBER_PHONE";
 $client = new Client($account_sid, $auth_token);
 
 // Ajouter un numéro
